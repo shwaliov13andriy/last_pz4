@@ -50,7 +50,10 @@ body {
   color: grey;
   font-size: 12px;
 }
-
+.key, .space, .shift, .wider, .wide:active{
+  background:black;
+  color:white;
+}
 .key.wide   { grid-column: span 2; }  
 .key.wider  { grid-column: span 2; }   
 .key.shift  { grid-column: span 3; }   
