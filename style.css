@@ -50,7 +50,7 @@ body {
   color: grey;
   font-size: 12px;
 }
-.key, .space, .shift, .wider, .wide:active{
+.key, .key.space, .key.shift, .key.wider, .key.wide:active{
   background:black;
   color:white;
 }
