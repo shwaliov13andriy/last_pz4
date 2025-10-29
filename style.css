@@ -12,6 +12,8 @@ body {
   grid-auto-rows: 60px; 
   justify-content: center; 
   margin: 0 auto;
+  width:80%;
+  height: auto;
 }
 
 .key {
@@ -74,3 +76,19 @@ body {
 .key.wider  { grid-column: span 2; }   
 .key.shift  { grid-column: span 3; }   
 .key.space  { grid-column: span 5; }  
+#all_at_once{
+    width: 100%;
+    height: auto;
+    background: lightgrey;
+    display: flex;
+    justify-content: flex-start;
+}
+.numpad{
+    width: 19%;
+    height: auto;
+    background: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 0.9fr);
+    grid-template-rows: repeat(4, 0.9fr);
+    gap:6px;
+}
